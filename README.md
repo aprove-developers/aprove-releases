@@ -1,5 +1,5 @@
 # aprove-releases
-contains publicly available releases of AProVE.
+Contains publicly available releases of AProVE.
 
 To create a new release, create an empty commit and use the git-sha of the respective commit in the aprove-repository as commit message (`git commit --allow-empty -m "$SHA"`).
 Then, tag (`git tag $TAG`) and push the commit.
