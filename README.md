@@ -5,7 +5,7 @@ To create a new release, create an empty commit and use the git-sha of the respe
 Then, tag (`git tag $TAG`) and push the commit and the tag (`git push origin $TAG`).
 
 For competiton versions, use tags like `termcomp16` resp. `svcomp16`.
-For all other versions, please use tags like `master-2016-09-19`.
+For all other versions, please use tags like `master_2016_09_19`.
 If you are releasing a version of a feature branch,
 please prefix the tag with the name of the feature branch to avoid confusion with "official" releases (e.g., `jbc-complexity_2016_09_19`).
 
